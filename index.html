@@ -12,29 +12,49 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body id="main">
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <header class="banner-background-color">
+  <header class="">
     <div class="flex-container center-item nav-container">
       <div class="">
-      <p class="title-navbar font-trans">tribute page of</p>
+        <p class="title-navbar font-trans title-font-color">tribute page of</p>
       </div>
     </div>
-  <div class="flex-container center-item banner-container">
-    <div class="title-banner">
-      <p id="title" class="banner-size font-trans">light yagami</p>
-    </div>
-    <div class="title-banner">
-      <img class="img-fluid img-border" src="img/light-yagami-death.jpg" alt="Light Yagami Death">
+    <hr>
+    <div class="flex-container center-item banner-container">
+      <div class="title-banner">
+        <p id="title" class="banner-size font-trans title-font-color">light yagami</p>
+      </div>
+  </header>
+  <div id="img-div">
+    <img id="image" class="img-fluid" src="img/light-yagami-dark.jpg" alt="Light Yagami Death">
+    <div class="flex-container center-item title-banner">
+      <h1 id="img-caption" class="centered-align">&ldquo;i am kira.<br>i am justice.<br>i am god.<br>i am light yagami.&rdquo;</h1>
     </div>
   </div>
-  </header>
-  <main>
-  <p class="nav-container">Hello</p>
+  </div>
+  <main id="tribute-info">
+    <section class="nav-container">
+      <p class="text-content-align">Light, born on February 28, 1986, is a third-year high school student (12th grade) at Daikoku Private Academy (大国学園, Daikoku Gakuen) who also attends supplemental classes at Gamou Prep Academy at the
+        beginning of the story. Light has a father, Soichiro Yagami, who is the head of the Police Force. Light also has a mother, Sachiko Yagami, and a younger sister, Sayu Yagami.
+        <br><br>
+        In Spring 2004, Light becomes a first-year student (freshman) at To-Oh University (東応大学, Tōō Daigaku), becoming one of two freshman representatives; L is the other freshman representative. During a tennis game with L at To-Oh, spectators
+        reveal
+        that Light was the junior high school tennis champion in 1999 and 2000. After his 2000 victory, Light quit tennis as he entered high school.
+        <br><br>
+        Yagami Light is a brilliant college student. Nicknamed "Kira," he uses the Death Note to create his ideal world of justice under him; its new God. Though he looks frail, Light is an extremely athletic person, with an aptitude to find an
+        opponent's weak point. He is a genius, which adds to his notion that only he is fit to judge humanity and steer it on a proper moral course.</p>
+    </section>
+    <section class="nav-container">
+      <p class="text-contain-align">Light initially becomes horrified at the Death Note's abilities after he tests the notebook on two criminals out of curiosity, but eventually convinces himself that the criminal's resulting deaths were justified.
+        Light soon becomes driven to lead a personal crusade to rid the world of crime by using the notebook. While his agenda originates with good intentions, Light eventually finds himself killing law enforcement and even innocents in order to
+        elude capture. His ethics are utilitarian , justifying the most extreme acts in service of his cause. He is also driven by a need for victory, which motivates most of his cruelest acts. Combined with the power of the Death Note, his hubris
+        and genius-level intellect convince him that only he can save the world.</p>
+      <p class="centered-align"><br>“If we catch Kira, he is Evil.<br>If he wins and rules the world, then he is Justice.”<br><br>&mdash; <a href="https://deathnote.fandom.com/wiki/Light_Yagami" id="tribute-link" target="_blank">Light Yagami</a></p>
   </main>
 
   <footer>
@@ -42,13 +62,21 @@
       <p></p>
     </div>
   </footer>
-  
+
   <script src="js/main.js"></script>
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+    window.ga = function() {
+      ga.q.push(arguments)
+    };
+    ga.q = [];
+    ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto');
+    ga('set', 'transport', 'beacon');
+    ga('send', 'pageview')
   </script>
   <script src="https://www.google-analytics.com/analytics.js" async></script>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
+
 </html>
