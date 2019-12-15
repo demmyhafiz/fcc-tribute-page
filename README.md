@@ -1,2 +1,2 @@
-# Freeecodecamp
-## Tribute Page project
+# Tribute Page
+## freecodecamp
